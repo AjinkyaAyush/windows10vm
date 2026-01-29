@@ -25,7 +25,7 @@ RUN wget https://github.com/novnc/noVNC/archive/refs/heads/master.zip -O /tmp/no
     rm -rf /tmp/novnc.zip /tmp/noVNC-master
 
 
-ENV ISO_URL="https://archive.org/download/windows-x-lite-optimum-11-24-h-2-pro-v-4.1/%5BWindows%20X-Lite%5D%20Optimum%2011%2024H2%20Pro%20v4.1.iso"
+ENV ISO_URL="https://singledrive.hickdick.workers.dev//isos/SapphireOS%2011%2025H2%20Ultralite%200.1.iso"
 
 
 RUN echo '#!/bin/bash\n\
